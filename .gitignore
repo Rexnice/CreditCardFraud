@@ -211,6 +211,5 @@ __marimo__/
 .DS_Store
 .ipynb_checkpoints/
 *.csv
-*.pkl
 *.h5
 *.model
