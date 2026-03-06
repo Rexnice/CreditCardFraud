@@ -1,8 +1,6 @@
-# CreditCardFraud
 
 # Polish Banking Fraud Detection Using RandomForest: A Data Analytics and ML Implementation
-
-![Project Banner](confusion_matrix.png)  <!-- Replace with your actual PNG or add a screenshot -->
+ <!-- Replace with your actual PNG or add a screenshot -->
 
 ## Overview
 This project simulates credit card fraud detection for Polish banking institutions, using real-world European transaction data. It demonstrates an end-to-end analytics workflow: from data ingestion and cleaning to modeling, visualization, and deployment. Built to showcase skills relevant to data analyst roles (e.g., inspired by Scala's job posting), it focuses on identifying fraudulent transactions, uncovering patterns, and providing actionable insights to minimize financial losses.
@@ -44,7 +42,7 @@ This project provided hands-on learning in a full data analytics/ML pipeline, mi
    - **Learning**: Gained skills in interactive viz (Plotly for 2026 dashboards) and imbalance awareness — fraud data is always skewed, teaching techniques like sampling.
 
 3. **Machine Learning Modeling**:  
-   - **What**: Handled imbalance with SMOTE, trained RandomForest/XGBoost classifiers, evaluated with AUC/recall.  
+   - **What**: Handled imbalance class with SMOTE, trained RandomForest classifiers, evaluated with AUC/recall.  
    - **Why**: Fraud is rare; SMOTE balances classes for better training. Models like RandomForest are interpretable (feature importance) and robust for banking (high stakes). Evaluation focuses on recall to avoid costly misses.  
    - **Learning**: Built ML pipelines, including hyperparameter tuning (e.g., via GridSearch); understood explainability (SHAP bonus) for ethical AI in finance (EU regulations).
 
